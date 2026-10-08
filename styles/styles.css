@@ -6,21 +6,29 @@
 
 body {
     font-family: "Abhaya Libre", serif;
+    background: linear-gradient(135deg, #0b0b10 0%, #120a1b 55%, #050508 100%);
 }
 
 header {
     background-color: #0b0b10;
     color: white;
     display: flex;
-    gap: 100px;
     align-items: center;
     font-weight: bold;
-    border-bottom: 1px solid #2A1F3A;
+    border-bottom: 1px solid #2a1f3a;
+    height: 196px;
+    gap: 200px;
+}
+
+header > img {
+    flex: 0 0 280px;
+    object-fit: contain;
 }
 nav {
     flex: 1;
     display: flex;
     justify-content: flex-end;
+    margin-right: 20px;
 }
 nav > ul {
     display: flex;

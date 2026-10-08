@@ -7,6 +7,7 @@
 body {
     font-family: "Abhaya Libre", serif;
     background: linear-gradient(135deg, #0b0b10 0%, #120a1b 55%, #050508 100%);
+    color: white;
 }
 
 header {
@@ -81,4 +82,60 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 50px 50px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+}
+.baner {
+    display: flex;
+    border: 1px solid #8832fb;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #0b0b10 0%, #120a1b 55%, #050508 100%);
+    width: 100%;
+    height: 636px;
+    padding: 50px 30px 50px 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 100px 0px 100px;
+
+}
+.inf-baner{
+    display: flex;
+    flex-direction: column;
+}
+.inf-baner > h1 {
+    font-size: 40px;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+
+.inf-baner > h2 {
+    font-size: 36px;
+    font-weight: bold;
+    align-items: center;
+}
+.inf-baner button{
+    margin-top: auto;
+    background-color: #8832FB;
+    width: 173px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.baner img {
+    width: auto;
+    height: 526px;
+    border-radius: 15px;
+    margin-left: auto;
+    border: 1px solid #8832FB;
 }

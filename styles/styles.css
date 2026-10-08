@@ -35,12 +35,12 @@ nav > ul {
     gap: 50px;
     font-size: 24px;
 }
-ul> a{
+ul > li {
+    list-style-type: none;
+}
+ul > li > a {
     text-decoration: none;
     color: white;
-}
-ul > a> li {
-    list-style-type: none;
 }
 .search {
     flex: 0 0 auto;
@@ -55,10 +55,30 @@ ul > a> li {
     border: none;
 }
 
-footer{
+footer {
     background: linear-gradient(135deg, #0b0b10 0%, #120a1b 55%, #050508 100%);
     border-top: 1px solid #2a1f3a;
     height: 360px;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 100px;
+}
 
+.footer-nav {
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.footer-nav ul > li {
+    list-style-type: none;
+}
 
+.footer-nav ul {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 50px 50px;
 }

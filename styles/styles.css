@@ -35,7 +35,11 @@ nav > ul {
     gap: 50px;
     font-size: 24px;
 }
-ul > li {
+ul> a{
+    text-decoration: none;
+    color: white;
+}
+ul > a> li {
     list-style-type: none;
 }
 .search {
@@ -49,4 +53,12 @@ ul > li {
     padding: 10px;
     border-radius: 30px;
     border: none;
+}
+
+footer{
+    background: linear-gradient(135deg, #0b0b10 0%, #120a1b 55%, #050508 100%);
+    border-top: 1px solid #2a1f3a;
+    height: 360px;
+
+
 }

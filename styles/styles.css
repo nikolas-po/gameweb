@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Abhaya Libre", serif;
+}
+
+header {
+    background-color: #0b0b10;
+    color: white;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    font-weight: bold;
+    border-bottom: 1px solid #2A1F3A;
+}
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+nav > ul {
+    display: flex;
+    gap: 50px;
+    font-size: 24px;
+}
+ul > li {
+    list-style-type: none;
+}
+.search {
+    flex: 0 0 auto;
+}
+.search input {
+    width: 299px;
+    height: 48px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+}
